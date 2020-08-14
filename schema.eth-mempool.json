@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "ethereum-mempool": {
+      "type": "object",
+      "properties": {
+        "from": {
+          "type": "string"
+        },
+        "to": {
+          "type": "string"
+        },
+        "nonce": {
+          "type": "string"
+        },
+        "gas": {
+          "type": "string"
+        },
+        "gasPrice": {
+          "type": "string"
+        },
+        "gasUsed": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        },
+        "hash": {
+          "type": "string"
+        },
+        "input": {
+          "type": "string"
+        },
+        "v": {
+          "type": "string"
+        },
+        "r": {
+          "type": "string"
+        },
+        "s": {
+          "type": "string"
+        },
+        "blockHash": {
+          "type": "string"
+        },
+        "blockNumber": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "from",
+        "to",
+        "nonce",
+        "gas",
+        "gasPrice",
+        "gasUsed",
+        "value",
+        "hash",
+        "input",
+        "v",
+        "r",
+        "s",
+        "blockHash",
+        "blockNumber"
+      ]
+    }
+  },
+  "required": [
+    "ethereum-mempool"
+  ]
+}
