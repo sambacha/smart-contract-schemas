@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "contractCall": {
+      "type": "object",
+      "properties": {
+        "contractType": {
+          "type": "string"
+        },
+        "contractAddress": {
+          "type": "string"
+        },
+        "methodName": {
+          "type": "string"
+        },
+        "params": {
+          "type": "object"
+        },
+        "contractName": {
+          "type": "string"
+        },
+        "contractDecimals": {
+          "type": "string"
+        },
+        "decimalValue": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "contractType",
+        "contractAddress",
+        "methodName",
+        "params",
+        "contractName",
+        "contractDecimals",
+        "decimalValue"
+      ]
+    }
+  },
+  "required": [
+    "contractCall"
+  ]
+}
