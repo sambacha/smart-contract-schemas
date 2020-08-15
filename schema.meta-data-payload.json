@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "meta-data-payload": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "system": {
+              "type": "string"
+            },
+            "network": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "apiKey": {
+              "type": "string"
+            },
+            "monitorVersion": {
+              "type": "string"
+            },
+            "monitorId": {
+              "type": "string"
+            },
+            "serverVersion": {
+              "type": "string"
+            },
+            "timeStamp": {
+              "type": "string"
+            },
+            "timePending": {
+              "type": "string"
+            },
+            "asset": {
+              "type": "string"
+            },
+            "direction": {
+              "type": "string"
+            },
+            "counterparty": {
+              "type": "string"
+            },
+            "watchedAddress": {
+              "type": "string"
+            },
+            "replaceHash": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "system",
+            "network",
+            "status",
+            "apiKey",
+            "monitorVersion",
+            "monitorId",
+            "serverVersion",
+            "timeStamp",
+            "timePending",
+            "asset",
+            "direction",
+            "counterparty",
+            "watchedAddress",
+            "replaceHash"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "meta-data-payload"
+  ]
+}
