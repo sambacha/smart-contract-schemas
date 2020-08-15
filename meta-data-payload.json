@@ -1,0 +1,20 @@
+  {
+  	"meta-data-payload": [{
+
+
+  		"system": "string",
+  		"network": "string",
+  		"status": "string",
+  		"apiKey": "string",
+  		"monitorVersion": "string",
+  		"monitorId": "string",
+  		"serverVersion": "string",
+  		"timeStamp": "string",
+  		"timePending": "string",
+  		"asset": "string",
+  		"direction": "string",
+  		"counterparty": "string",
+  		"watchedAddress": "string",
+  		"replaceHash": "string"
+  	}]
+  }
